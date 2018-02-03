@@ -43,7 +43,10 @@ div {
   border: thin solid black; /* remove */
 }
 
+
 .column {
+  display: flex;
+  flex-direction: column;
   border: thin solid black; /* remove */
 }
 
