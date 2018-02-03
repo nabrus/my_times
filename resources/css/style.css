@@ -1,0 +1,26 @@
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  border-bottom: thin solid black;
+  padding-bottom: 10px;
+}
+
+a {
+  color: black;
+}
+
+li {
+  display: inline-block;
+}
+
+.logo {
+  color: MediumAquamarine;
+
+
+}
+
+nav {
+  align-self: end;
+}
