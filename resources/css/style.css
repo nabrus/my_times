@@ -1,26 +1,52 @@
+/* header with navigation */
+
 header {
+  display: flex;
+  align-items: center;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  display: flex;
   border-bottom: thin solid black;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
+  height: 80px;
+  width: 100%;
+}
+
+.logo {
+  color: MediumAquamarine;
+  flex-grow: 1;
+  margin-left: 10px;
+  border: solid black thin; /* remove */
 }
 
 a {
   color: black;
 }
 
-li {
-  display: inline-block;
-}
-
-.logo {
-  color: MediumAquamarine;
-
-
+img {
+  margin-left: 20px;
+  border: solid black thin; /* remove */
 }
 
 nav {
-  align-self: end;
+  margin-right: 40px;
+}
+
+li {
+  display: inline-block;
+  margin: 10px;
+}
+
+/* main content */
+
+div {
+  border: thin solid black; /* remove */
+}
+
+.column {
+  border: thin solid black; /* remove */
+}
+
+.column.large {
+  width: 630px;
 }
