@@ -7,7 +7,7 @@ header {
   font-size: 14px;
   font-weight: bold;
   border-bottom: thin solid black;
-  padding-bottom: 5px;
+  /*margin-bottom: 30px;  trying to get header correct. with no margin articles up against border */
   height: 80px;
   width: 100%;
 }
@@ -25,15 +25,15 @@ a {
 
 img {
   margin-left: 20px;
-  border: solid black thin; /* remove */
 }
 
 nav {
   margin-right: 40px;
+  display: inline-block;
+  padding: 10px;
 }
 
-li {
-  display: inline-block;
+span {
   margin: 10px;
 }
 
