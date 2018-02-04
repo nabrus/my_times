@@ -7,7 +7,7 @@ header {
   font-size: 14px;
   font-weight: bold;
   border-bottom: thin solid black;
-  /*margin-bottom: 30px;  trying to get header correct. with no margin articles up against border */
+
   height: 80px;
   width: 100%;
 }
@@ -15,8 +15,6 @@ header {
 .logo {
   color: MediumAquamarine;
   flex-grow: 1;
-  margin-left: 10px;
-  border: solid black thin; /* remove */
 }
 
 a {
@@ -37,10 +35,16 @@ span {
   margin: 10px;
 }
 
+
 /* main content */
 
 main {
   display: flex;
+  justify-content: center;
+  align-content: space-between;
+  margin: 30px;
+  font-family: Georgia;f
+  font-size: 17px;
   border: thin solid black; /* remove */
 }
 
@@ -61,8 +65,48 @@ div {
 
 .column.medium {
   width: 300px;
+  margin-left: 30px;
 }
 
 .column.small {
   width: 240px;
+  margin-left: 30px;
+}
+
+
+/* pics */
+
+.headline {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.main-img {
+  display: flex;
+  background-image: url(../images/img-story-main.png);
+  padding-bottom: 150px;
+}
+
+.main-img .headline {
+  font-size: 40px;
+}
+
+.story1-img {
+  display: flex;
+  background-image: url(../images/img-story-2-fall.png);
+  padding-bottom: 260px;
+}
+
+.story2-img {
+  display: flex;
+  background-image: url(../images/img-story-3-hipster.png);
+  padding-bottom: 227px;
+}
+
+.cat {
+  display:flex;
+  background-image: url(../images/img-cat.png);
+  padding-bottom: 227px;
 }
