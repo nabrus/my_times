@@ -39,6 +39,11 @@ li {
 
 /* main content */
 
+main {
+  display: flex;
+  border: thin solid black; /* remove */
+}
+
 div {
   border: thin solid black; /* remove */
 }
@@ -52,4 +57,12 @@ div {
 
 .column.large {
   width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
