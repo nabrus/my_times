@@ -40,9 +40,8 @@ span {
 
 main {
   display: flex;
-  justify-content: center;
   align-content: space-between;
-  margin: 30px;
+  margin-top: 40px;
   font-family: Georgia;
   font-size: 17px;
   border: thin solid black; /* remove */
@@ -61,6 +60,18 @@ div {
 
 .column.large {
   width: 630px;
+  display: flex;
+  flex-direction: row; /* horizontally aligned */
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+
+}
+
+.text-content {
+  width: 300px;
+  display: flex; /* added this so p and h2 become flex items */
+  flex-wrap: wrap;
 }
 
 .column.medium {
@@ -72,6 +83,7 @@ div {
   width: 240px;
   margin-left: 30px;
 }
+
 
 /* pics */
 
@@ -97,6 +109,7 @@ div {
   display: flex;
   background-image: url(../images/img-story-2-fall.png);
   padding-bottom: 260px;
+
 }
 
 .story2-img {
