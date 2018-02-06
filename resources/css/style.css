@@ -38,25 +38,32 @@ nav {
   padding: 10px;
 }
 
-span {
-  margin: 10px;
-}
+
 
 
 /* main content */
 
 main {
   display: flex;
-  position: ;
-  align-content: space-between;
+  position: relative;
+  top: 45px;
+  padding: 75px;
   font-family: Georgia;
   font-size: 17px;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.article {
+  margin-bottom: 50px;
 }
 
 .column {
   display: flex;
   flex-direction: column;
-  margin: 120px 20px;
 }
 
 .column.large {
@@ -103,36 +110,43 @@ main {
   font-weight: bold;
   font-size: 30px;
   color: white;
-  text-align: center;
 }
 
 .main-img {
   display: flex;
+  align-items: center;
   background-image: url(../images/img-story-main.png);
-  padding-bottom: 150px;
+  height: 300px;
+
 }
 
 .main-img .headline {
   font-size: 40px;
-  text-align: left;
+  margin-left: 20px;
 }
 
 .story1-img {
   display: flex;
+  align-items: center;
+  text-align: center;
   background-image: url(../images/img-story-2-fall.png);
-  padding-bottom: 175px;
+  height: 300px;
 
 
 }
 
 .story2-img {
   display: flex;
+  align-items: center;
+  text-align: center;
   background-image: url(../images/img-story-3-hipster.png);
-  padding-bottom: 195px;
+  height: 300px;
 }
 
 .cat {
   display: flex;
   background-image: url(../images/img-cat.png);
-  padding-bottom: 227px;
+  height: 300px;
+  align-items: center;
+  text-align: center;
 }
