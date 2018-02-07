@@ -49,7 +49,7 @@ main {
   display: flex;
   position: relative;
   top: 45px;
-  padding: 75px;
+  padding: 85px;
   font-family: Georgia;
   font-size: 17px;
 }
@@ -66,6 +66,7 @@ h2 {
 .column {
   display: flex;
   flex-direction: column;
+  padding-bottom: 40px;
 }
 
 .column.large {
